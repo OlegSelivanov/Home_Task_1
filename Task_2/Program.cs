@@ -8,6 +8,18 @@ Console.WriteLine("Введите второе число: ");
 
 int m = Convert.ToInt32(Console.ReadLine());
 
-if )(n > m)
+while (n == m)
+{
+   Console.WriteLine("Числа равны! Введите первое число: ");
+   n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("max = n")
+   Console.WriteLine("Введите второе число: ");
+   m = Convert.ToInt32(Console.ReadLine()); 
+}
+if (n > m)
+
+Console.WriteLine($"Max {n}");
+
+else
+
+Console.WriteLine($"Max {m}");
