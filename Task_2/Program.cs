@@ -22,7 +22,7 @@ while (n == m)
 if (n > m)
 {
    Console.WriteLine($"Большее = {n}");
-    Console.WriteLine($"Меньшее = {m}");
+   Console.WriteLine($"Меньшее = {m}");
 }
 else
 {
