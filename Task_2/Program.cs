@@ -20,7 +20,12 @@ while (n == m)
 }
 
 if (n > m)
-Console.WriteLine($"Большее={n}, Меньшее={m}");
-
+{
+   Console.WriteLine($"Большее = {n}");
+    Console.WriteLine($"Меньшее = {m}");
+}
 else
-Console.WriteLine($"Большее={m}, Меньшее={n}");
+{
+Console.WriteLine($"Большее = {m}");
+Console.WriteLine($"Меньшее = {n}");
+}
