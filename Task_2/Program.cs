@@ -26,6 +26,6 @@ if (n > m)
 }
 else
 {
-Console.WriteLine($"Большее = {m}");
-Console.WriteLine($"Меньшее = {n}");
+   Console.WriteLine($"Большее = {m}");
+   Console.WriteLine($"Меньшее = {n}");
 }
